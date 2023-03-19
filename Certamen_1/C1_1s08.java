@@ -294,6 +294,9 @@ class CreaBotonesPanel extends JPanel { // cambio parcial
 }
 
 //c) Página html: }
-<applet code="AppletCreaBotones.class" width=400 height=300>
-<param name="texto" value="nuevo boton"/>
-</applet>
+<!DOCTYPE html>
+<html>
+  <applet code="AppletCreaBotones.class" width=400 height=300>
+    <param name="texto" value="nuevo boton"/>
+  </applet>
+</html>
