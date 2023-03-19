@@ -57,10 +57,7 @@ class A {
 ....}
 
 -----------------------------------------------------------------------------------------------------------
-*/
 
-
-/*
 2.
   a) En clase MiTarea implemente un método estático para calcular n!/m!, suponga
 n >= m .
