@@ -1,0 +1,21 @@
+
+
+Employee e1 =  new Employee();
+/referencia = /objeto
+
+Employee m1 =  new Manager();
+/en este caso se veran los métodos de empleado, si existen, se ejecutará ese método pero con implementación de manager, de no ser así Error.
+
+------------------------------------------------------------------------------------------
+
+
+Employee[] = staff = new Employee[3];
+Manager Boss = new Manager(...);
+
+staff[0] = Boss; //tiempo de ejecución -> ligado dinámico.
+/identifica los métodos de empleado, si existe, ejecuta ese método pero de manager. si el método no existe en empleado pero si en manager tira error.
+DEBE EXISTIR EL MÉTODO EN LA REFERENCIA.
+ 
+
+
+
