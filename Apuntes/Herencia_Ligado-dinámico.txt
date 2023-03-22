@@ -13,9 +13,87 @@ Employee[] = staff = new Employee[3];
 Manager Boss = new Manager(...);
 
 staff[0] = Boss; //tiempo de ejecución -> ligado dinámico.
-/identifica los métodos de empleado, si existe, ejecuta ese método pero de manager. si el método no existe en empleado pero si en manager tira error.
+/identifica los métodos de empleado, si existe, ejecuta ese método pero de manager. si el método NO existe en empleado pero si en manager tira error.
 DEBE EXISTIR EL MÉTODO EN LA REFERENCIA.
+
+
+el final también se puede usar en las clases, o sea hacerla constante y que ninguna subclase lo pueda cambiar:
+    o sea que le ponemos final a un método de 'employee' se usará siempre ese a pesar de que llamemos el método de manager.
+    
  
+para redefinir un método en otra clase debe llamarse igual y tener los mismos parámetros (no necesariamente los nombres pero si los tipos).
+
+
+según la referencia será los métodos que revise.
+
+
+employee e = new manager(...);
+'instanceof' para saber que e es una referencia a una instancia de manager.
+
+
+CALSES ABSTRACTAS 
+    es una clase en la cual al menos 1 de los métodos NO está implementado. (puede tener nombre, parámetros de entrada y hasta el retorno pero sin código).
+    
+Class Forma{
+    int n_lados;
+    
+    float ger_Area(){ //Clase abstracta ya que va a variar según el número de lados que tenga la forma.
+    
+    }
+}
+
+
+No tiene sentido y es error de compilación instanciar una clase que  no tiene todos los métodos implemtados, es decir no podemos hacer 'new Forma()'
+Forma f = new Forma(); //tira error
+
+syntaxis:
+    public abstract class Forma{
+        ....
+        public abstract double get_Area();
+        ...
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
