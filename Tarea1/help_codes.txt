@@ -1,0 +1,7 @@
+ Primera etapa: http://profesores.elo.utfsm.cl/~agv/elo329/1s23/Assignments/T1/stage1.tar
+ 
+ Segunda etapa: http://profesores.elo.utfsm.cl/~agv/elo329/1s23/Assignments/T1/stage2.tar
+ 
+ Normas entrega: http://profesores.elo.utfsm.cl/~agv/elo329/1s23/Assignments/guideline_2023/
+ 
+ Makefile: http://profesores.elo.utfsm.cl/~agv/elo329/Java/javamakefile.html
