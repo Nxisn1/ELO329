@@ -98,7 +98,7 @@ public class Stage3 {
                             System.out.println("alarma armada");
                             break;
                         case 'p': //armar perimetro
-                            //central.perimeter(); pero no hay perímetro en la etapa 2
+                            //central.perimeter(); esto es para la etapa 4
                             break;
                         case 'd': //desarmar
                             central.disarm();
